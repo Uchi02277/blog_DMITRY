@@ -1,0 +1,193 @@
+@media all and (max-width: 900px) {
+    .sidebar {
+        display: none;
+    }
+    .home {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 768px) {
+    .header {
+        width: 100%;
+        position: fixed;
+    }
+    .header__body {
+        width: 100%;
+    }
+    .search {
+        width: 100%;
+    }
+    .topmenu__main a {
+        display: none;
+    }
+    .topmenu_mobile {
+        display: block;
+    }
+    .topmenu .none {
+        display: none;
+    }    
+    .topmenu.active {
+        padding: 0;
+    }
+}
+@media all and (max-width: 768px) {
+    .topmenu_mobile { 
+        width: 100%;
+        background: #181818;
+    }
+    .topmenu_mobile__container { 
+        width: 93.75%;
+        height: 100%;
+        background: #0D0D0D;
+        box-shadow: 9px 0px 15px rgba(0, 0, 0, 0.3), inset -10px 0px 5px rgba(5, 5, 5, 0.35);
+    }
+    .topmenu_mobile__image_item img { 
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        object-position: 100%;
+        object-position: bottom;
+    }
+    .topmenu_mobile__avatar { 
+        display: flex;
+        align-items: center;
+        padding: 4% 0;
+        margin: 0 5%;
+    }
+    .topmenu_mobile__avatar_image { 
+        position: inherit;
+    }
+    .topmenu_mobile__avatar_image img { 
+        width: 75px;
+        height: auto;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-top: -41.55%;
+    }
+    .topmenu_mobile__avatar_name { 
+        height: auto;
+        margin-left: 3.71%;
+    }
+    .topmenu_mobile__avatar_title { 
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .topmenu_mobile__avatar_text { 
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #DEDEDE;
+    }
+    .topmenu_mobile__list { 
+        border-top: 0.5px solid #202020;
+        margin: 0px 15px;
+        padding: 10px 15px;
+    }
+    .topmenu_mobile__list a { 
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    .topmenu_mobile__list ul li a:hover {
+        color: rgba(16, 126, 255, 1);
+        background: none;
+    }
+    .topmenu_mobile__sublist { }
+    .topmenu_mobile__sublist li {
+        margin: 0 0 0 17px;
+    }
+    .topmenu_mobile__sublist li a {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .topmenu_mobile__btn { 
+        text-align: center;
+        font-weight: 500;
+    }
+    .topmenu_mobile__btn_red { 
+        background: #ED3024;
+        border-radius: 25em;
+        margin: 0 6.67% 0 0;
+        padding: 4.335% 8.335%;
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+    .topmenu_mobile__btn_blue { 
+        background: #3137C9;
+        border-radius: 25em;
+        padding: 4.335% 6.67%;
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+    .topmenu_mobile__btn_blue a,
+    .topmenu_mobile__btn_red a {
+        color: #FFFFFF;
+    }
+    .topmenu_mobile__btn_red:hover,
+    .topmenu_mobile__btn_blue:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .stories .stories__container {
+        padding: 60px 0 0px 0;
+    }
+    .addpost2 {
+        display: none;
+    }
+    .addpost .addpost__container {
+        margin: 10px auto;
+    }
+    .addpost .addpost__text .text_container {
+        padding: 15px 0;
+    }
+    .addpost .addpost__text .text_list {
+        margin: 0 15px;
+    }
+    .addquestion .addquestion__container {
+        margin-top: 30px;
+    }
+    .addquestion .coment_container {
+        flex-direction: column;
+        line-height: 26px;
+    }
+    .addquestion .addquestion_block {
+        padding: 15px;
+    }
+    .home {
+        padding: 0 15px;
+    }
+    .addplay .coment_container {
+        flex-direction: column;
+    }
+    .addplay .addplay__container {
+        padding: 0;
+        margin: 30px auto 0;
+    }
+    .addplay .addplay_block {
+        padding: 20px 15px;
+        margin: 0;
+    }
+    .addplay .data_list a {
+        line-height: 26px;
+    }
+    .addplay .list_review a {
+        line-height: 26px;
+    }
+    .pagination .pagination__container {
+        padding: 50px 0;
+        margin: 0 auto;
+    }
+    .pagination .pagination_block li {
+        margin: 0;
+    }
+}
+@media all and (max-width: 320px) {
+    .topmenu_mobile__avatar_image img { 
+        width: 65px;
+        height: auto;
+    }
+}
