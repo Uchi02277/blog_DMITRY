@@ -769,6 +769,11 @@ nav ul {
     .pagination_block li a {
         text-decoration: none;
     }
+    .pagination_block li a i {
+        content: "/f054";
+        font-family: "FontAwesome";
+        color: inherit;
+    }
     .pagination_block button,
     .pagination_block span, .pagination_block a {
         background: none;
